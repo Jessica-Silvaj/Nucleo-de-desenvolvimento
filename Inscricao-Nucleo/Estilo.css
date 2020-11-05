@@ -1,0 +1,193 @@
+body{
+    
+    background: #1C1C1C;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Logo */
+
+.Logo{
+
+    text-align: center;
+    padding: 25px;
+    
+}
+
+/* imagem */
+
+img {
+    width: 205px;
+    height: 105px;
+}
+
+
+/* Tilulo */
+
+.Titulo{
+    padding-top: 0 ;
+    margin-left: 310px;
+    color: white;
+    display: flex;
+}
+
+/* Linha */
+
+hr{
+    width: 935px;
+    height:5px;
+    border:none;
+     color:#FF7F00; 
+     background-color:#FF7F00;
+     margin-top: 0px; 
+     margin-bottom: 0px;
+     
+}
+
+/* Card */
+
+.Card-P {
+    padding-top: 10px ;
+    margin-left: 215px;
+    width: 920px;
+}
+
+
+.Card{
+    height: 480px;
+    background:#FFFFF0;
+    box-shadow: 0 4px 8px 0 grey;
+    transition: 0.3s;
+    border-radius: 10px;
+    border: 2px solid #1C1C1C;
+    color: #1C1C1C;
+}
+
+.Titulo-2{
+    padding-top: 0 ;
+    margin-left: 350px;
+    color: #1C1C1C;
+    display: flex;
+}
+
+/* formulario */
+
+.Form-P{
+    padding-top: 0px;
+    margin: 15px;
+    display: flex;
+}
+
+.Primeiro-C{
+    color: #1C1C1C;
+    padding: 0px;
+    margin-left: 80px;
+    
+}
+.Primeiro-C input {
+    text-align: center;
+    border-radius: 10px;
+    border: 0;
+    width: 50px;
+    height: 15px;
+}
+
+.Segundo-C{
+    color: #1C1C1C;
+    padding: 10px;
+    margin-left: 80px;
+    
+}
+.Segundo-C input {
+    text-align: center;
+    border-radius: 10px;
+    border: 0;
+    width: 50px;
+    height: 15px;
+}
+ 
+.Q-Digitos {
+    color: #1C1C1C;
+    padding: 25px;
+    margin-left: 80px;
+    display: inline-block;
+}
+.Q-Digitos input {
+    text-align: center;
+    border-radius: 10px;
+    border: 0;
+    width: 180px;
+    height: 30px;
+    background: #FF7F00;
+    border: 2px solid #1C1C1C;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+
+}
+
+
+.Extras {
+    color: #1C1C1C;
+    padding: 0px;
+    margin-left: 15px;
+    display: inline-block;
+}
+.Extras input {
+    text-align: center;
+    border-radius: 10px;
+    border: 0;
+    width: 160px;
+    height: 30px;
+    background: #FF7F00;
+    border: 2px solid #1C1C1C;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+.button {
+    color: #1C1C1C;
+    padding: 0px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.button input {
+    text-align: center;
+    border-radius: 10px;
+    border: 0;
+    width: 180px;
+    height: 40px;
+    background: red;
+    border: 2px solid #1C1C1C;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+.novaSenha {
+
+    color: #1C1C1C;
+    padding: 5px;
+    margin-left: 230px;
+
+}
+
+.novaSenha input {
+
+    text-align: center;
+    border-radius: 10px;
+    border: 0;
+    width: 300px;
+    height: 30px;
+    background: #FF7F00;
+    border: 2px solid #1C1C1C;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+/* Rodapé */
+
+footer{
+
+    padding-top: 25px ;
+    margin-left: 2px;
+    width: 900px;
+    color: #FF7F00;
+}

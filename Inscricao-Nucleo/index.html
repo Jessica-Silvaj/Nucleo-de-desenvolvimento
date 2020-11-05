@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo.css">
+    <link  rel = "shortcut icon"  href = "./img/favicon.png"  type = "image / x-icon" >
+
+    <title>UN1D3V</title>
+
+</head>
+
+<body>
+
+    <!-- Logo -->
+    <div class="Logo">
+        <img src="./Img/Logo.png" alt="Logo" />
+    </div>
+
+    <!-- Titulo -->
+
+    <div class="Titulo">
+
+        <h2>Núcleo de desenvolvimento UNIME - Lauro de Freitas</h2>
+
+    </div>
+
+    <!-- Linha -->
+    <hr />
+    <!-- Inicio -->
+    <div class="Card-P">
+
+        <div class="Card">
+
+            <div class="Titulo-2">
+
+                <h2>Gerador de Senhas </h2>
+
+            </div>
+
+            <div class="Form-P">
+
+                <form name="formulario">
+
+                    <div class="card-2">
+                        <div class="Primeiro-C">
+                            <h4>
+                                A PRIMEIRA CARACTER DEVERÁ SER (MIN):
+                            </h4>
+
+                            <input type="checkbox" name="primeiroNumero">Número
+                            <input type="checkbox" name="mini">Letra Minúsculo
+                            <input type="checkbox" name="maiusc">Letra Maiúsculo
+                            <input type="checkbox" name="outros">Caracter especial
+
+                        </div>
+
+                        <div class="Segundo-C">
+                            <h4>
+                                O ÚLTIMO CARACTER DEVERÁ SER (MAX):
+                            </h4>
+
+                            <input type="checkbox" name="segundoNumero">Número
+                            <input type="checkbox" name="miniSeg">Letra Minúsculo
+                            <input type="checkbox" name="maiuscSeg">Letra Maiúsculo
+                            <input type="checkbox" name="outrosSeg">Caracter especial
+                        </div>
+
+                     
+
+                    <div class=" Q-Digitos">
+
+                        <h4>
+                            QUANTIDADE DE DIGITOS:
+                        </h4>
+
+                        <input type="text" name="tamanhodaSenha" value="3" size="30">
+                    </div>
+
+                    <div class="Extras">
+                        <h4>
+                            CARACTER EXTRA:
+                        </h4>
+
+                        <input type="" text name="extraC" >
+                    </div>
+
+
+                    <div class="button">
+
+                        
+
+                        <input type="button" value="Gerar uma nova senha" onClick="document. formulario.NSenha.value=
+                          getSenha (document.formulario.tamanhodaSenha. value, document.formulario.extraC.value,
+                          document.formulario.primeiroNumero.checked, document. formulario.mini.checked,
+                          document.formulario.maiusc.checked, document. formulario.outros.checked,
+                          document.formulario.segundoNumero.checked, document. formulario.miniSeg.checked,
+                           document.formulario.maiuscSeg.checked, document. formulario. outrosSeg.checked); ">
+                    </div>
+
+                    <div class="novaSenha">
+                        Nova senha: &nbsp;
+                        
+                        <input type="text" name="NSenha" >
+                    </div>
+
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Código Javasript -->
+    <script src="index.js"></script>
+
+
+    <!-- Rodapé -->
+    <footer>
+
+        <h4>Projeto de inscrição para o Núcleo de desenvolvimento <br />
+            Desenvolvido por <span style="color:white;">Jéssica Silva de Jesus </span>
+
+        </h4>
+
+    </footer>
+</body>
+
+</html>
